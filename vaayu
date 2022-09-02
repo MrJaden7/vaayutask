@@ -35,6 +35,9 @@ print("The value of x after swapping: ",x)
 print("The value of y after swapping: ",y)
 
 
+
+
+
 3)program to find largest of three numbers using if else
 
 Num1 = float(input("Enter the first number: "))
@@ -64,6 +67,38 @@ if n >= 1:
                              factorial = factorial *i
 
 print ("Factorial of the given number is: ", factorial)
+
+
+5)a = 10
+b = 0
+
+try:
+    c = a / b
+    print(c)
+except ZeroDivisionError as error:
+    print(error)
+finally:
+    print('Finishing up.')
+    
+Output:
+division by zero
+Finishing up.
+
+
+a = 10
+b = 2
+
+try:
+    c = a / b
+    print(c)
+except ZeroDivisionError as error:
+    print(error)
+finally:
+    print('Finishing up.')
+    
+Output:
+5.0
+Finishing up.
 
 
  
