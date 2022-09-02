@@ -69,7 +69,7 @@ if n >= 1:
 print ("Factorial of the given number is: ", factorial)
 
 
-5)a = 10
+5)a = 7
 b = 0
 
 try:
@@ -78,11 +78,11 @@ try:
 except ZeroDivisionError as error:
     print(error)
 finally:
-    print('Finishing up.')
+    print('python.')
     
 Output:
 division by zero
-Finishing up.
+python.
 
 
 a = 10
@@ -94,11 +94,11 @@ try:
 except ZeroDivisionError as error:
     print(error)
 finally:
-    print('Finishing up.')
+    print('python.')
     
 Output:
 5.0
-Finishing up.
+python.
 
 
  
