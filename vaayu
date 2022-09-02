@@ -1,0 +1,71 @@
+1)basic calculator program using switch case
+
+Num1=float(input("Enter the first number "))
+Num2=float(input("Enter the second number "))
+print("Calculator")
+print("1.Add")
+print("2.Substract")
+print("3.Multiply")
+print("4.Divide")
+ch=int(input("Enter Choice(1-4): "))
+
+if ch==1:
+    Sum=Num1+Num2
+    print("Sum = ",Sum)
+elif ch==2:
+    Difference=Num1-Num2
+    print("Difference = ",Difference)
+elif  ch==3:
+    Multiplication=Num1*Num2
+    print("Product = ",Multiplication)
+elif ch==4:
+    Division=Num1/Num2
+    print("Quotient = ",Division)
+else:
+    print("Invalid Choice")
+    
+ 2) program using swap function with temporary variable
+ 
+ x = input('Enter value of x: ')
+y = input('Enter value of y: ')
+temp = x
+x = y
+y = temp
+print("The value of x after swapping: ",x)
+print("The value of y after swapping: ",y)
+
+
+3)program to find largest of three numbers using if else
+
+Num1 = float(input("Enter the first number: "))
+Num2 = float(input("Enter the second number: "))
+Num3 = float(input("Enter the third number: "))
+
+if (Num1 >= Num2) and (Num1 >= Num3):
+    largest = Num1
+elif (Num2 >= Num1) and (Num2 >= Num3):
+    largest = Num2
+else:
+    largest = Num3
+
+print("The largest of the three numbers is", largest)
+
+4) factorial program using range function and while loop
+
+
+n = int (input ("Enter a number whose factorial is to be calculated: "))
+
+factorial = 1
+
+if n >= 1:
+
+              for i in range (1, n+1):
+
+                             factorial = factorial *i
+
+print ("Factorial of the given number is: ", factorial)
+
+
+ 
+ 
+    
